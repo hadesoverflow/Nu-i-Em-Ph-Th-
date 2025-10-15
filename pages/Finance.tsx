@@ -3,8 +3,8 @@ import PageWrapper from '../components/PageWrapper';
 import { GOOGLE_SHEETS_LINK } from '../constants';
 import { ArrowUpRight, FileText, Users, ChevronsRight, X } from 'lucide-react';
 
-const childImage = "https://images.pexels.com/photos/8947671/pexels-photo-8947671.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2";
-const childImageOriginal = "https://images.pexels.com/photos/8947671/pexels-photo-8947671.jpeg";
+const childImage = "/thông tin.jpg";
+const childImageOriginal = "/thông tin.jpg";
 
 const Finance: React.FC = () => {
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
