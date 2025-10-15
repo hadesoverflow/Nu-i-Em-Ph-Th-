@@ -111,7 +111,7 @@ const Home: React.FC = () => {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <Link to="/tulieu" className="group bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                      <img src="https://images.pexels.com/photos/8947682/pexels-photo-8947682.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2" alt="Hoạt động 1" className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"/>
+                      <img src="xuatannong.jpg" alt="Hoạt động 1" className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"/>
                       <div className="p-6">
                           <span className="text-sm text-emerald-600 font-semibold">Bữa ăn đủ đầy</span>
                           <h3 className="font-bold text-xl mt-2 mb-2 text-gray-800">Trao những suất ăn nóng</h3>
