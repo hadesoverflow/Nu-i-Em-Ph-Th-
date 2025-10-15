@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
         
         {/* Logo */}
         <Link to="/" className="inline-flex items-center justify-center mb-4">
-          <img src="https://i.ibb.co/688w7y1/logo.png" alt="Nuôi Em Phú Thọ Logo" className="h-20 w-auto" />
+          <img src="logo.png" alt="Nuôi Em Phú Thọ Logo" className="h-20 w-auto" />
         </Link>
         
         {/* Title */}
