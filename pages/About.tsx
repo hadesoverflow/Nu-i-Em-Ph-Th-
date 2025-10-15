@@ -41,7 +41,7 @@ const About: React.FC = () => {
                 <InfoCard icon={Target} title="Mục tiêu chương trình">
                     <ul className="list-disc list-inside space-y-2">
                         <li>Đảm bảo 100% trẻ em tại các điểm trường dự án tham gia được ăn trưa đủ dinh dưỡng.</li>
-                        <li>Kêu gọi 1.500 nhà hảo tâm đồng hành cùng dự án trong năm nay.</li>
+                        <li>Kêu gọi 100 nhà hảo tâm đồng hành cùng dự án trong năm nay.</li>
                         <li>Xây dựng và sửa chữa ít nhất 2 điểm trường xuống cấp.</li>
                         <li>Tổ chức các chương trình trao quà, quần áo ấm vào các dịp lễ, Tết.</li>
                     </ul>
