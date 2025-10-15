@@ -59,7 +59,7 @@ const About: React.FC = () => {
                             <div className="bg-emerald-100 p-3 rounded-full">
                                 <Users className="w-6 h-6 text-emerald-600" />
                             </div>
-                            <h3 className="ml-4 text-2xl font-bold text-emerald-700">Thành viên chủ chốt</h3>
+                            <h3 className="ml-4 text-2xl font-bold text-emerald-700">Thành viên</h3>
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center pt-2">
                            <TeamMemberCard 
