@@ -68,7 +68,7 @@ const About: React.FC = () => {
                                 role="Trưởng dự án"
                            />
                            <TeamMemberCard 
-                                avatarUrl="https://i.ibb.co/7bJd7g2/avatar-female-1.png"
+                                avatarUrl="Lê Thị Hồng Vân.jpg"
                                 name="Lê Thị Hồng Vân"
                                 role="Phụ trách dự án"
                            />
