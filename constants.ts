@@ -9,14 +9,12 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const MOCK_MEDIA_ITEMS: MediaItem[] = [
-  { id: 1, imageUrl: 'https://images.pexels.com/photos/1154723/pexels-photo-1154723.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2', originalImageUrl: 'https://images.pexels.com/photos/1154723/pexels-photo-1154723.jpeg', title: 'Con đường tới trường', category: 'Hoạt động chung' },
-  { id: 2, imageUrl: 'https://images.pexels.com/photos/8947688/pexels-photo-8947688.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2', originalImageUrl: 'https://images.pexels.com/photos/8947688/pexels-photo-8947688.jpeg', title: 'Giờ học cùng cô giáo', category: 'Hoạt động chung' },
-  { id: 3, imageUrl: 'https://images.pexels.com/photos/8947682/pexels-photo-8947682.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2', originalImageUrl: 'https://images.pexels.com/photos/8947682/pexels-photo-8947682.jpeg', title: 'Bữa trưa đoàn viên', category: 'Xã Minh Đài' },
-  { id: 4, imageUrl: 'https://images.pexels.com/photos/8947691/pexels-photo-8947691.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2', originalImageUrl: 'https://images.pexels.com/photos/8947691/pexels-photo-8947691.jpeg', title: 'Cùng bạn đến trường', category: 'Xã Xuân Đài' },
-  { id: 5, imageUrl: 'https://images.pexels.com/photos/8947677/pexels-photo-8947677.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2', originalImageUrl: 'https://images.pexels.com/photos/8947677/pexels-photo-8947677.jpeg', title: 'Giờ học hăng say', category: 'Xã Xuân Đài' },
-  { id: 6, imageUrl: 'https://images.pexels.com/photos/8947671/pexels-photo-8947671.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2', originalImageUrl: 'https://images.pexels.com/photos/8947671/pexels-photo-8947671.jpeg', title: 'Nụ cười trong veo', category: 'Chân dung' },
-  { id: 7, imageUrl: 'https://images.pexels.com/photos/8947690/pexels-photo-8947690.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2', originalImageUrl: 'https://images.pexels.com/photos/8947690/pexels-photo-8947690.jpeg', title: 'Hăng say phát biểu', category: 'Hoạt động chung' },
-  { id: 8, imageUrl: 'https://images.pexels.com/photos/8947683/pexels-photo-8947683.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2', originalImageUrl: 'https://images.pexels.com/photos/8947683/pexels-photo-8947683.jpeg', title: 'Vui đùa cùng bạn', category: 'Hoạt động chung' },
+  { id: 1, imageUrl: '/EN01.jpg', originalImageUrl: '/EN01.jpg', title: 'EN01', category: 'Hoạt động' },
+  { id: 2, imageUrl: '/EN02.jpg', originalImageUrl: '/EN02.jpg', title: 'EN02', category: 'Hoạt động' },
+  { id: 3, imageUrl: '/EN05.jpg', originalImageUrl: '/EN05.jpg', title: 'EN05', category: 'Hoạt động' },
+  { id: 4, imageUrl: '/EN07.jpg', originalImageUrl: '/EN07.jpg', title: 'EN07', category: 'Hoạt động' },
+  { id: 5, imageUrl: '/EN09.jpg', originalImageUrl: '/EN09.jpg', title: 'EN09', category: 'Hoạt động' },
+  { id: 6, imageUrl: '/EN10.jpg', originalImageUrl: '/EN10.jpg', title: 'EN10', category: 'Hoạt động' },
 ];
 
 
