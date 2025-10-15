@@ -64,7 +64,7 @@ const Home: React.FC = () => {
       <section className="py-20 bg-white animate-on-scroll">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-16">
             <div className="md:w-1/2">
-                <img src="https://images.pexels.com/photos/8947690/pexels-photo-8947690.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2" alt="Giới thiệu dự án" className="rounded-2xl shadow-2xl w-full h-auto object-cover"/>
+                <img src="tieude.jpg" alt="Giới thiệu dự án" className="rounded-2xl shadow-2xl w-full h-auto object-cover"/>
             </div>
             <div className="md:w-1/2">
                 <h2 className="text-4xl md:text-5xl font-bold text-emerald-700 leading-tight">Về dự án "Nuôi Em Phú Thọ"</h2>
