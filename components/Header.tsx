@@ -27,7 +27,7 @@ const Header: React.FC = () => {
           {/* Left Side: Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3">
-              <img src="https://i.ibb.co/688w7y1/logo.png" alt="Nuôi Em Phú Thọ Logo" className="h-16 w-auto" />
+              <img src="logo.png" alt="Nuôi Em Phú Thọ Logo" className="h-16 w-auto" />
               <span className="hidden sm:block font-bold text-xl md:text-2xl text-emerald-800 tracking-wide">
                 Nuôi Em Phú Thọ
               </span>
