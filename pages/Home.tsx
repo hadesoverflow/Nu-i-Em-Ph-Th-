@@ -34,7 +34,8 @@ const Home: React.FC = () => {
   return (
     <div className="overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center h-[70vh] md:h-[90vh] animate-fadeIn" style={{ backgroundImage: "background.jpg" }}>
+      <section className="relative bg-cover bg-center h-[70vh] md:h-[90vh] animate-fadeIn" style={{ backgroundImage: "url('/background.jpg')" }}>
+
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/30"></div>
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center text-white">
           <h1 className="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight drop-shadow-lg">Mỗi tháng – Một bữa ăn – Một tương lai</h1>
