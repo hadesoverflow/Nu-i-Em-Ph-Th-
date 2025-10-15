@@ -27,8 +27,8 @@ const ValueCard: React.FC<{ icon: React.ElementType, title: string, children: Re
 const Home: React.FC = () => {
     const statistics: Statistic[] = [
         { icon: Baby, value: '13+', label: 'Em nhỏ được hỗ trợ' },
-        { icon: Users, value: '850+', label: 'Nhà hảo tâm' },
-        { icon: HandHeart, value: '2.5 tỷ+', label: 'Tổng tiền quyên góp' },
+        { icon: Users, value: '50+', label: 'Nhà hảo tâm' },
+        { icon: HandHeart, value: 'Hơn 50tr', label: 'Tổng tiền quyên góp' },
     ];
 
   return (
