@@ -63,7 +63,7 @@ const About: React.FC = () => {
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center pt-2">
                            <TeamMemberCard 
-                                avatarUrl="https://i.ibb.co/d0SMK5n/avatar-female-2.png"
+                                avatarUrl="Lê Thị Lan.jpg"
                                 name="Lê Thị Lan"
                                 role="Trưởng dự án"
                            />
