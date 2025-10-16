@@ -38,9 +38,9 @@ const Home: React.FC = () => {
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/30"></div>
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center text-white">
-          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight drop-shadow-lg">Mỗi tháng – Một bữa ăn – Một tương lai</h1>
+          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight drop-shadow-lg">Trao Yêu Thương - Ương Mầm Hạnh Phúc</h1>
           <p className="mt-6 max-w-3xl text-lg md:text-xl text-gray-100 drop-shadow-md">
-            Cùng "Nuôi Em Phú Thọ" thắp lên hy vọng cho trẻ em vùng cao, mang đến những bữa ăn đủ đầy và một tương lai tươi sáng hơn.
+            Hãy cùng "Nuôi Em Phú Thọ" kết nối, lan tỏa yêu thương, mang đến cơ hội đến trường cho các em nhỏ có hoàn cảnh đặc biệt khó khăn. Mỗi sự đóng góp là một món quà thiên sứ.
           </p>
           <Link
             to="/donggop"
