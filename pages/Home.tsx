@@ -113,9 +113,9 @@ const Home: React.FC = () => {
                   <Link to="/tulieu" className="group bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
                       <img src="xuatannong.jpg" alt="Hoạt động 1" className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"/>
                       <div className="p-6">
-                          <span className="text-sm text-emerald-600 font-semibold">Bữa ăn đủ đầy</span>
-                          <h3 className="font-bold text-xl mt-2 mb-2 text-gray-800">Trao những suất ăn nóng</h3>
-                          <p className="text-gray-600">Những bữa trưa có thịt không chỉ là niềm vui mà còn là động lực để các em tới trường.</p>
+                          <span className="text-sm text-emerald-600 font-semibold">Ương mầm thế hệ trẻ</span>
+                          <h3 className="font-bold text-xl mt-2 mb-2 text-gray-800">Trao những suất hỗ trợ</h3>
+                          <p className="text-gray-600">Những hỗ trợ nhỏ của các mạnh thường quân không chỉ là niềm vui mà còn là động lực để các em tới trường.</p>
                       </div>
                   </Link>
                   <Link to="/tulieu" className="group bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
