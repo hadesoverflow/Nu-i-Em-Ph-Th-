@@ -15,6 +15,7 @@ export const MOCK_MEDIA_ITEMS: MediaItem[] = [
   { id: 4, imageUrl: '/EN07.jpg', originalImageUrl: '/EN07.jpg', title: 'EN07', category: 'Hoạt động' },
   { id: 5, imageUrl: '/EN09.jpg', originalImageUrl: '/EN09.jpg', title: 'EN09', category: 'Hoạt động' },
   { id: 6, imageUrl: '/EN10.jpg', originalImageUrl: '/EN10.jpg', title: 'EN10', category: 'Hoạt động' },
+  { id: 7, imageUrl: '/Trung thu 2025.jpg', originalImageUrl: '/Trung thu 2025.jpg', title: 'Trung Thu 2025', category: 'Hoạt động' },
 ];
 
 

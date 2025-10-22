@@ -34,16 +34,17 @@ const About: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="md:col-span-2">
                     <InfoCard icon={Heart} title="Sứ mệnh của chúng tôi">
-                        <p>Dự án "Nuôi Em" ra đời với sứ mệnh xóa đói, cải thiện dinh dưỡng và thể chất cho trẻ em vùng cao. Tại Phú Thọ, chúng tôi tập trung vào các xã đặc biệt khó khăn, nơi các em nhỏ đến trường với những chiếc bụng đói, ảnh hưởng đến sự phát triển toàn diện. Mỗi bữa ăn không chỉ giúp các em no lòng mà còn là động lực để các em đến trường đều đặn, tiếp thu kiến thức và có một tương lai tươi sáng hơn.</p>
+                        <p>Sứ mệnh cốt lõi của "Dự án Nuôi Em Phú Thọ" là kết nối và lan tỏa yêu thương để mang những điều tốt đẹp tới các em có hoàn cảnh khó khăn. Chúng tôi tập trung thúc đẩy giáo dục và giảm thiểu tình trạng bỏ học bằng cách mở rộng cơ hội đến trường cho các em.</p>
+                        <p className="mt-3">Song song với đó, dự án nỗ lực hỗ trợ cải thiện đời sống vật chất, trích một phần nguồn lực để mua thực phẩm, quần áo, sách vở và các nhu yếu phẩm khác, góp phần nâng cao chất lượng bữa ăn và cuộc sống mỗi ngày của các em.</p>
                     </InfoCard>
                 </div>
                 
                 <InfoCard icon={Target} title="Mục tiêu chương trình">
                     <ul className="list-disc list-inside space-y-2">
-                        <li>Đảm bảo 100% trẻ em tại các điểm trường dự án tham gia được ăn trưa đủ dinh dưỡng.</li>
-                        <li>Kêu gọi 100 nhà hảo tâm đồng hành cùng dự án trong năm nay.</li>
-                        <li>Xây dựng và sửa chữa ít nhất 2 điểm trường xuống cấp.</li>
-                        <li>Tổ chức các chương trình trao quà, quần áo ấm vào các dịp lễ, Tết.</li>
+                        <li>Kết nối và lan tỏa yêu thương để mang điều tốt đẹp đến các em có hoàn cảnh khó khăn.</li>
+                        <li>Thúc đẩy chương trình giáo dục, tạo điều kiện để các em theo đuổi tri thức.</li>
+                        <li>Giảm thiểu các trường hợp bỏ học vì thiếu điều kiện đến trường, giúp mỗi em nuôi đều có cơ hội học tập.</li>
+                        <li>Kêu gọi nguồn lực hỗ trợ vật chất, trích cho thực phẩm, quần áo, sách vở và phương tiện đến trường.</li>
                     </ul>
                 </InfoCard>
 
