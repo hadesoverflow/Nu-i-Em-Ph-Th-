@@ -124,46 +124,6 @@ const Donate: React.FC = () => {
                 </div>
             </div>
 
-            <div className="mt-16 bg-white border border-emerald-100 rounded-3xl shadow-lg">
-                <div className="px-8 py-10 md:px-12 md:py-14 text-center">
-                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-emerald-50 text-emerald-600 mb-6">
-                        <FileText className="w-8 h-8" />
-                    </div>
-                    <h3 className="text-2xl md:text-3xl font-bold text-emerald-700 mb-4">Đăng ký đồng hành qua Google Form</h3>
-                    <p className="text-gray-600 max-w-3xl mx-auto">
-                        Điền biểu mẫu để chúng tôi có thể liên hệ, ghi nhận mong muốn hỗ trợ và cập nhật thông tin các chương trình mới nhất tới bạn.
-                    </p>
-
-                    {googleFormConfigured ? (
-                        <>
-                            <div className="relative w-full mt-10 overflow-hidden rounded-2xl shadow-xl" style={{ paddingTop: '65%' }}>
-                                <iframe
-                                    src={GOOGLE_FORM_URL}
-                                    title="Đăng ký hỗ trợ Nuôi Em Phú Thọ"
-                                    className="absolute inset-0 h-full w-full border-0"
-                                    loading="lazy"
-                                    allow="accelerometer; clipboard-write; encrypted-media;"
-                                />
-                            </div>
-                            <p className="mt-6 text-sm text-gray-500">
-                                Nếu biểu mẫu không hiển thị, hãy mở trực tiếp&nbsp;
-                                <a
-                                    href={directFormUrl || GOOGLE_FORM_URL}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="font-semibold text-emerald-600 hover:text-emerald-700"
-                                >
-                                    tại đây
-                                </a>.
-                            </p>
-                        </>
-                    ) : (
-                        <p className="mt-6 text-sm text-gray-500">
-                            Vui lòng cập nhật đường dẫn Google Form trong biến <code>GOOGLE_FORM_URL</code> (tại <code>constants.ts</code>) để hiển thị biểu mẫu đăng ký.
-                        </p>
-                    )}
-                </div>
-            </div>
         </PageWrapper>
     );
 };

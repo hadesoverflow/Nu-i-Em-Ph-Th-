@@ -63,7 +63,7 @@ const Media: React.FC = () => {
                                 className="w-full h-full object-cover rounded-2xl shadow-inner" 
                             />
                         </div>
-                        <div className="lg:w-1/2 p-8 overflow-y-auto">
+                        <div className="lg:w-1/2 p-8 overflow-y-auto bg-white">
                             {selectedImage.detail ? (
                                 <>
                                     <p className="text-sm font-semibold text-emerald-600 uppercase tracking-widest">{selectedImage.detail.heading}</p>
