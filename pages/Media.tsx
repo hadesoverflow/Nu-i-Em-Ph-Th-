@@ -42,26 +42,49 @@ const Media: React.FC = () => {
                 <div 
                     className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-[100] p-4 animate-fadeIn"
                     onClick={() => setSelectedImage(null)}
+                    role="dialog"
+                    aria-modal="true"
                 >
                     <div 
-                        className="relative max-w-5xl max-h-[90vh] bg-white rounded-lg shadow-2xl"
+                        className="relative w-full max-w-6xl bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col lg:flex-row max-h-[90vh]"
                         onClick={(e) => e.stopPropagation()}
                     >
-                        <img 
-                            src={selectedImage.originalImageUrl} 
-                            alt={selectedImage.title} 
-                            className="max-w-full max-h-[80vh] object-contain rounded-t-lg" 
-                        />
-                        <div className="bg-black bg-opacity-70 text-white text-center p-3 rounded-b-lg">
-                            <p className="font-semibold">{selectedImage.title}</p>
-                        </div>
                         <button 
                             onClick={() => setSelectedImage(null)} 
-                            className="absolute -top-4 -right-4 text-white bg-emerald-600 rounded-full p-2 hover:bg-emerald-700 transition-all focus:outline-none"
+                            className="absolute top-4 right-4 text-white bg-emerald-600 rounded-full p-2 hover:bg-emerald-700 transition-all focus:outline-none z-10"
                             aria-label="Đóng"
                         >
                             <X size={24} />
                         </button>
+                        <div className="lg:w-1/2 bg-gray-100 flex items-center justify-center p-6">
+                            <img 
+                                src={selectedImage.originalImageUrl} 
+                                alt={selectedImage.title} 
+                                className="w-full h-full object-cover rounded-2xl shadow-inner" 
+                            />
+                        </div>
+                        <div className="lg:w-1/2 p-8 overflow-y-auto">
+                            {selectedImage.detail ? (
+                                <>
+                                    <p className="text-sm font-semibold text-emerald-600 uppercase tracking-widest">{selectedImage.detail.heading}</p>
+                                    {selectedImage.detail.subheading && (
+                                        <p className="mt-2 text-2xl font-bold text-gray-800">{selectedImage.detail.subheading}</p>
+                                    )}
+                                    <div className="mt-6 space-y-4">
+                                        {selectedImage.detail.paragraphs.map((paragraph, index) => (
+                                            <p key={index} className="text-gray-600 leading-relaxed whitespace-pre-line">
+                                                {paragraph}
+                                            </p>
+                                        ))}
+                                    </div>
+                                </>
+                            ) : (
+                                <div className="h-full flex flex-col justify-center text-center text-gray-500">
+                                    <p className="font-semibold text-lg">Thông tin đang được cập nhật.</p>
+                                    <p className="mt-2">Vui lòng quay lại sau hoặc liên hệ ban tổ chức để biết thêm chi tiết.</p>
+                                </div>
+                            )}
+                        </div>
                     </div>
                 </div>
             )}
